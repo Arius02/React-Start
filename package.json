@@ -1,7 +1,6 @@
 {
   "name": "project-1",
   "version": "0.1.0",
-  "homepage": "https://arius02.github.io/React-Start/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.0",
@@ -18,8 +17,7 @@
     "webfontloader": "^1.6.28"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,6 +43,7 @@
   },
   "devDependencies": {
     "@types/bootstrap": "^5.2.6",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "web-vitals": "^3.0.4"
   }
 }
