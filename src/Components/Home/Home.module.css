@@ -1,0 +1,14 @@
+.homeContainer {
+  background-color: #1ABC9C;
+}
+
+.mainImg {
+  width: 15rem;
+}
+.homeContainer h1 {
+  font-size: 4em;
+  line-height: 1.5rem;
+}
+.homeContainer p {
+  font-size: 1.5em;
+}

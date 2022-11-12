@@ -1,0 +1,41 @@
+figure{
+  cursor: pointer;
+}
+
+.fig {
+  inset: 0;
+  background-color: #1abc9cc5 ;
+  opacity: 0;
+  transition: .3s all;
+  -webkit-transition: .3s all;
+  -moz-transition: .3s all;
+  -ms-transition: .3s all;
+  -o-transition: .3s all;
+}
+
+figure:hover .fig {
+  opacity: 1;
+}
+
+.closing {
+  background-color: #1abc9c !important;
+  color: white !important;
+}
+.closing:hover {
+  background-color: #1abc9c !important;
+}
+h3 {
+  font-size: 3rem !important;
+  color: #2c3e50 !important;
+}
+.portColor {
+  color: #2c3e50 !important;
+}
+.xmark {
+  color: #1abc9c !important;
+  font-weight: 700;
+  cursor: pointer;
+}
+.xmark:hover {
+  opacity: .9;
+}
